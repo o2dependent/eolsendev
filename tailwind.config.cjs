@@ -1,11 +1,17 @@
 const config = {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 
-  theme: {
-    extend: {}
-  },
+	theme: {
+		extend: {}
+	},
 
-  plugins: []
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/container-queries'),
+		require('@tailwindcss/aspect-ratio'),
+		require('@tailwindcss/line-clamp'),
+		require('daisyui')
+	]
 };
 
 module.exports = config;
