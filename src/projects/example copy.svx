@@ -1,0 +1,8 @@
+---
+title: Old Article example
+date: Thu Nov 7 2022
+summary: This is an example of a post.
+tags: ["example"]
+---
+
+I will always use the `article` layout!

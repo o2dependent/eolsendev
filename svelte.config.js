@@ -17,7 +17,15 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+
+		// Add aliases for custom folders
+		alias: {
+			$utils: 'src/utils',
+			$types: 'src/types',
+			$dtos: 'src/dtos',
+			$actions: 'src/actions'
+		}
 	}
 };
 

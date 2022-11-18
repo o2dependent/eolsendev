@@ -20,15 +20,16 @@
 		"@tailwindcss/container-queries": "^0.1.0",
 		"@tailwindcss/line-clamp": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.7",
-		"@types/three": "^0.144.0",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.7",
 		"daisyui": "^2.33.0",
+		"date-fns": "^2.29.3",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
+		"p-map": "^5.5.0",
 		"postcss": "^8.4.14",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.6.2",
@@ -42,7 +43,5 @@
 		"vite": "^3.1.0"
 	},
 	"type": "module",
-	"dependencies": {
-		"three": "^0.144.0"
-	}
+	"dependencies": {}
 }
