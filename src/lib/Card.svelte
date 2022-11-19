@@ -9,8 +9,8 @@
 
 <a
 	{href}
-	sveltekit:prefetch
-	class="card bg-base-100/0 hover:bg-base-100/50 duration-150 group max-w-96 lowercase rounded-none text-green-500 relative"
+	data-sveltekit-prefetch
+	class="card btn btn-ghost items-stretch justify-center h-fit duration-150 group max-w-96 lowercase rounded-none text-green-500 relative"
 >
 	<div class="card-border" />
 	<!-- <div
@@ -43,7 +43,9 @@
 				</div>
 			{/if}
 		</h2>
-		<p class="text-green-500 text-opacity-75 transition-colors group-hover:text-opacity-100">
+		<p
+			class="text-left text-green-500 text-opacity-75 transition-colors group-hover:text-opacity-100"
+		>
 			{summary}
 		</p>
 		<div class="card-actions justify-end">

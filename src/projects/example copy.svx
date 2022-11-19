@@ -5,4 +5,27 @@ summary: This is an example of a post.
 tags: ["example"]
 ---
 
-I will always use the `article` layout!
+This is an example of an old article. It has a date in the future, so it will not show up on the front page. It will show up in the archive, though. [link here](https://example.com)
+
+## Subheading
+
+This is a subheading.
+
+## Another Subheading
+
+This is another subheading.
+
+## Yet Another Subheading
+
+This is yet another subheading.
+
+## And Another Subheading
+
+### Sub-subheading
+
+This is a sub-subheading.
+
+### Another Sub-subheading
+
+This is another sub-subheading.
+

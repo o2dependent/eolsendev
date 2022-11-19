@@ -6,7 +6,7 @@
 	<nav class="navbar container">
 		<div class="navbar-start lowercase">
 			<a
-				sveltekit:prefetch
+				data-sveltekit-prefetch
 				href="/"
 				class="btn btn-ghost normal-case text-xl font-medium rounded-none">ethan olsen</a
 			>
